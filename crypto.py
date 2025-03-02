@@ -14,7 +14,7 @@ def coin_holdings():
         if input("Do you want to save?, (y/n): ") == "n" and value_error == False:
             break
         if value_error == False:
-            coins.append(crypto.Crypto(name, price, ammount))
+            coins.append((name, price, ammount))
         if input("Do you want to add another coin? (y/n): ") == "n":
             break
     
