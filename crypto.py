@@ -20,3 +20,11 @@ def coin_holdings():
     
     return coins
 
+
+
+def retreive_holdings(coins):
+    for coin in coins:
+        print("\nCoin:" + str(coin[0]) + "\nPrice:"+ str(coin[1]) + "\nAmmount: " + str(coin[2]) +"\n")
+
+    print("all coin in wallet printed")
+
